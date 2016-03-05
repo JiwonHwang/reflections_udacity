@@ -1,0 +1,13 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	git init # creates a new repository 
+	Initialized empty Git repository in <location>
+
+	# .git is created. 
+
+	git log # to check git commit history
+	git status # to check any changes after the latest commit 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	Staging area gathers files from working directory and pushes it to the repository. I can make meaningful/logical commmit. 
