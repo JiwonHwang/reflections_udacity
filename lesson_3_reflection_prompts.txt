@@ -6,3 +6,14 @@ When would you want to use a remote repository rather than keeping all your work
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
   I might not want to make changes from the changes I made in my remote repository later. Or I have made change in A, and did the same in my computer. There could be conflict. Maybe I would have wanted to test different version from the one in remote repository. 
+
+
+Q. 
+(myvenv) jiwonhwang (master) anna2016-master $ git push origin master
+To https://github.com/JiwonHwang/anna2016.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/JiwonHwang/anna2016.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
