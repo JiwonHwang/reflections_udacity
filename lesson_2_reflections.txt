@@ -8,6 +8,47 @@ What happens when you initialize a repository? Why do you need to do it?
 	git log # to check git commit history
 	git status # to check any changes after the latest commit 
 
+
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 	Staging area gathers files from working directory and pushes it to the repository. I can make meaningful/logical commmit. 
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+    git add <file>
+    git commit -m "<message>"
+    git push 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+    When I want to make want to make different version or experiment, I can create branch and write what I want. If it is thought to be okay to be merged to the master branch, I can update the master branch. 
+
+    It can be helpful for keeping my history organized 
+    because I can choose to merge only when I want after testing and exploring new code in seperate branch. 
+
+    How could branches help? 
+    It provides independent and safe place for new coding. 
+
+
+How do the diagrams help you visualize the branch structure?
+
+	If there's a main/originial branch A, I can create a branch a, b. Each commmit has HEAD, and when I run 'checkout <ID>' I am in 'detatched HEAD state.' It won't be detacted by 'git log' because commits don't know branch, but only branch knows its commits. To start a branch from the detached state commit, run 'git checkout -b <new_branch_name' It will create a new branch from that commit named 'new_branch_name.'
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	Two seperate branches becomes one. branch-a + master branch = master branch. 
+
+	Branch-a becomes merged to another, let's say it's master branch. When two branches are merged, it becomes one. That's why it is represented in that way when we drew a diagram. 
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+
+	automatic merging: convenient, fast
+	manual merging: good when there's conflicts. 
+
+
+
+	
