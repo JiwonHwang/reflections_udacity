@@ -1,2 +1,8 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
+  When I don't have my computer and can't clone my repository to the laptop I'm using, simply add code on the internet. Simple. 
+  
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+  I might not want to make changes from the changes I made in my remote repository later. Or I have made change in A, and did the same in my computer. There could be conflict. Maybe I would have wanted to test different version from the one in remote repository. 
