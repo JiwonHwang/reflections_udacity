@@ -58,3 +58,9 @@ Traceback (most recent call last):
 AttributeError: 'module' object has no attribute 'HTMLField'
 
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+  fork: copy codes and it's history from the original repository. / When I want to make changes and not affect in the original repository. I can experiment and if it is successful, I can ask pull request. 
+  clone: copy codes from github repository / When I want to edit it at my computer. git clone <url of the repository>
+  branches: by forking, I created a branch from master branch of the original repository. Let's say there's a repository named A, and there's a master branch by 'Tom.' I forked and created another branch by me. The forked repostiroy's master is me. 
+
