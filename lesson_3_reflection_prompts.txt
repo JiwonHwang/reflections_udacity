@@ -110,3 +110,30 @@ and what would be harder?
   Email, slack, save and exchange each file then compare, someone will have to 
   copy and paste... such a manual process. 
   Using Gut or/GitHub will be much easier. 
+
+
+
+
+When would you want to make changes in a separate branch rather than directly 
+in master? What benefits does each approach have?
+
+  separate branch: 
+  - when: to experiment, make relatively complicated, complex changes. 
+  - benefits: even if there's bug in the new branch, it won't affect the master 
+  branch. Simply removingi it or improving it will solve it. There won't be any 
+  problem in the project due to new branch at least. 
+  
+  master branch: 
+  - when: simple changes or when the notion of changes are so easy to develpe 
+  and clear.
+  - benefits: no complication, faster. 
+
+  *** Caroline's(https://github.com/cbuckey-uda/reflections/blob/master/
+  lesson_3_reflections.txt)
+    I tend to work directly in master more often when I'm working on my own or
+    with just one or two other people.  When working with a large group, though,
+    using branches to keep track of which changes have already been reviewed and
+    approved is extremely helpful.
+
+
+
