@@ -104,3 +104,9 @@ remote stored locally?
     remote version is at some point, I have an easy way to access it.
 
 
+How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
+
+  Email, slack, save and exchange each file then compare, someone will have to 
+  copy and paste... such a manual process. 
+  Using Gut or/GitHub will be much easier. 
